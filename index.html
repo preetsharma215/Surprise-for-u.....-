@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surprise 💖</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- tsParticles for floating hearts -->
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/interaction-external-repulse@3.0.2/tsparticles.interaction.external.repulse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.2/tsparticles.min.js"></script>
+  <!-- canvas-confetti for yes burst -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div id="tsparticles"></div>
+
+  <div id="intro" class="page active">
+    <div class="card">
+      <h1>I want to say something 👉🏻👈🏻</h1>
+      <button onclick="show('rose')">Tap 💕</button>
+    </div>
+  </div>
+
+  <!-- Rose, Teddy, Chocolate, Promise same as before, sirf class="page" aur card div rakhna -->
+  <!-- ... paste previous days code here ... -->
+
+  <div id="valentine" class="page">
+    <div class="card">
+      <h1>Will you be my Valentine 💝</h1>
+      <img id="gif" src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVy8/giphy.gif" class="sticker">
+      <p id="msg">Please say yes 🥺</p>
+      <button id="yes">Yes 😍</button>
+      <button id="no">No 😢</button>
+      <div id="yay" style="display:none;">
+        <h2>Yayyyy! 💖🎉</h2>
+        <p>I love you forever! Milte hain jaldi 🌹🧸🍫🤝</p>
+        <img src="https://media.giphy.com/media/l0HlPwynBzbWC3Wco/giphy.gif" class="sticker">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
